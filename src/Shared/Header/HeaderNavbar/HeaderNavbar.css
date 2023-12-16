@@ -1,0 +1,7 @@
+.active {
+    color: var(--high-light);
+}
+
+ul li {
+    font-weight: 600;
+}
