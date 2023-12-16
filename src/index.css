@@ -1,0 +1,36 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,500&display=swap');
+
+/* tailwind css  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* css variable color  */
+:root {
+  --high-light: #00B207;
+  --primary-color: #FFFFFF;
+  --secondary-color: #808080;
+}
+
+
+/* fixed css  */
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+li,
+p,
+a {
+  font-size: 14px;
+}
+
+
+/* custom class' */
+.section-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
