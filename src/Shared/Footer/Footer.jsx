@@ -2,9 +2,9 @@
 
 const Footer = () => {
     return (
-        <div>
+        <footer className="w-full bg-black">
             <h1>Footer</h1>
-        </div>
+        </footer>
     );
 };
 
