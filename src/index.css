@@ -10,8 +10,7 @@
 /* css variable color  */
 :root {
   --high-light: #00B207;
-  --primary-color: #FFFFFF;
-  --secondary-color: #808080;
+  --primary-color: #808080;
 }
 
 
@@ -26,7 +25,9 @@ body {
   margin-right: auto;
 }
 
-
+h1,h2,h3,h4 {
+  font-weight: 600;
+}
 li,
 p,
 a {
