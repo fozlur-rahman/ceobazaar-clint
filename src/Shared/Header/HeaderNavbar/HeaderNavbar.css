@@ -5,3 +5,30 @@
 ul li {
     font-weight: 600;
 }
+
+.categ {
+    height: full;
+    position: absolute;
+    top: 224px;
+    background: white;
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+
+}
+
+.openCate {
+    height: full;
+    width: 300px;
+    display: block;
+    z-index: 1;
+}
+
+.openClose {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .categ {
+        display: none;
+    }
+}

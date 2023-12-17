@@ -1,0 +1,4 @@
+.categories .active {
+    background: var(--high-light);
+    color: white;
+}

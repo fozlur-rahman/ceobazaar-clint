@@ -1,0 +1,15 @@
+.swiper-pagination-bullets {
+    position: absolute;
+    width: 100px!important;
+    bottom: 10px;
+    left: 110px;
+    margin: 10px !important;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet {
+    background: var(--primary-color)!important;
+} 
+.swiper-pagination-bullet-active{
+    background: white!important;
+}

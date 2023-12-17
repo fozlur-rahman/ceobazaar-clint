@@ -1,7 +1,7 @@
 
 // import Header from '../../Shared/Header/Header/Header';
 import { Outlet } from 'react-router-dom';
-import Footer from '../../Shared/Footer/Footer';
+// import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header/Header';
 // import { Outlet } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ const Main = () => {
         <>
             <Header></Header>
             <Outlet></Outlet>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </>
     );
 };
